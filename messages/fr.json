@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A Propos",
+    "experience": "Experience",
+    "education": "Formation",
+    "skills": "Competences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Portfolio",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "cv": "CV"
+  },
+  "about": {
+    "label": "Qui suis-je",
+    "title": "A Propos"
+  },
+  "experience": {
+    "label": "Parcours",
+    "title": "Experience Professionnelle"
+  },
+  "education": {
+    "label": "Academique",
+    "title": "Formation"
+  },
+  "skills": {
+    "label": "Expertise",
+    "title": "Competences Techniques",
+    "ecommerce": "Hard Skills E-commerce",
+    "digital": "IA & Outils Digitaux"
+  },
+  "interests": {
+    "label": "Personnel",
+    "title": "Interets & Loisirs"
+  },
+  "engagement": {
+    "label": "Implication",
+    "title": "Engagement & Leadership"
+  },
+  "game": {
+    "label": "Mini-Jeu",
+    "title": "Decouvre mes Competences",
+    "subtitle": "Detruis les ennemis pour augmenter ton score. Apres 2 hits, un bonus special t'attend !",
+    "instructions": "Deplace la souris pour bouger le vaisseau. Clique pour tirer.",
+    "play": "Jouer",
+    "score": "Score",
+    "bonusUnlocked": "Bonus Debloque",
+    "clickToEmail": "Clique pour envoyer un email",
+    "continuePlay": "Continuer a jouer"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Parlons Ensemble",
+    "description": "Interessee par une collaboration ? Contactez-moi !",
+    "downloadCv": "Telecharger CV"
+  },
+  "footer": {
+    "rights": "Tous droits reserves."
+  }
+}

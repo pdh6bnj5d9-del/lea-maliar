@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Portfolio",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "cv": "CV"
+  },
+  "about": {
+    "label": "Who am I",
+    "title": "About Me"
+  },
+  "experience": {
+    "label": "Career",
+    "title": "Professional Experience"
+  },
+  "education": {
+    "label": "Academic",
+    "title": "Education"
+  },
+  "skills": {
+    "label": "Expertise",
+    "title": "Technical Skills",
+    "ecommerce": "E-commerce Hard Skills",
+    "digital": "AI & Digital Tools"
+  },
+  "interests": {
+    "label": "Personal",
+    "title": "Interests & Hobbies"
+  },
+  "engagement": {
+    "label": "Involvement",
+    "title": "Engagement & Leadership"
+  },
+  "game": {
+    "label": "Mini-Game",
+    "title": "Discover My Skills",
+    "subtitle": "Destroy enemies to increase your score. After 2 hits, a special bonus awaits!",
+    "instructions": "Move the mouse to steer the ship. Click to shoot.",
+    "play": "Play",
+    "score": "Score",
+    "bonusUnlocked": "Bonus Unlocked",
+    "clickToEmail": "Click to send an email",
+    "continuePlay": "Continue playing"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Connect",
+    "description": "Interested in a collaboration? Get in touch!",
+    "downloadCv": "Download CV"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
