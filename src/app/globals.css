@@ -29,8 +29,8 @@
 :root {
   --bg-dark: #1a1c25;
   --bg-card: #22242f;
-  --accent: #cca3a6;
-  --accent-hover: #d4b3b6;
+  --accent: #ffe5ec;
+  --accent-hover: #ffd6e0;
   --text-white: #ffffff;
   --text-muted: #a0a3b1;
   --text-light: #d0d2da;
@@ -59,7 +59,7 @@ body {
   background: rgba(26, 28, 37, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(204, 163, 166, 0.08);
+  border-bottom: 1px solid rgba(255, 229, 236, 0.08);
   transition: all 0.3s ease;
 }
 
@@ -275,40 +275,48 @@ section {
 
 /* ==================== ABOUT SECTION ==================== */
 .about {
-  background: var(--bg-dark);
+  background: var(--accent);
+  padding: 100px 20px;
+}
+
+.about .section-title {
+  color: var(--bg-dark);
 }
 
 .about-grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 60px;
+  grid-template-columns: 240px 1fr;
+  gap: 50px;
   align-items: start;
 }
 
 .about-photo {
-  width: 280px;
-  height: 340px;
+  width: 240px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 200px 200px 20px 20px;
-  border: 2px solid var(--accent);
+  object-position: center top;
+  border-radius: 140px 140px 16px 16px;
+  border: none;
+  box-shadow: 0 12px 40px rgba(26, 28, 37, 0.2);
 }
 
 .about-text p {
-  font-size: 0.95rem;
-  line-height: 1.9;
-  color: var(--text-light);
-  margin-bottom: 30px;
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--bg-dark);
+  margin-bottom: 28px;
   font-family: var(--font-body);
+  opacity: 0.85;
 }
 
 .about-text .pillar-title {
-  color: var(--accent);
+  color: var(--bg-dark);
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 4px;
   margin-bottom: 20px;
   display: block;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-family: var(--font-body);
 }
 
@@ -318,25 +326,28 @@ section {
 }
 
 .pillar-list li {
-  padding: 12px 0;
-  padding-left: 20px;
+  padding: 10px 0;
+  padding-left: 18px;
   position: relative;
-  color: var(--text-light);
+  color: var(--bg-dark);
   line-height: 1.7;
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-family: var(--font-body);
+  opacity: 0.85;
 }
 
 .pillar-list li::before {
   content: '•';
-  color: var(--accent);
+  color: var(--bg-dark);
   position: absolute;
   left: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  opacity: 0.5;
 }
 
 .pillar-list li strong {
-  color: var(--text-white);
+  color: var(--bg-dark);
+  opacity: 1;
 }
 
 /* ==================== EXPERIENCES SECTION ==================== */
@@ -364,7 +375,7 @@ section {
   position: relative;
   margin-bottom: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid rgba(204, 163, 166, 0.08);
+  border-bottom: 1px solid rgba(255, 229, 236, 0.08);
 }
 
 .timeline-item:last-child {
@@ -454,7 +465,7 @@ section {
   padding: 44px;
   background: var(--bg-card);
   border-radius: 16px;
-  border: 1px solid rgba(204, 163, 166, 0.1);
+  border: 1px solid rgba(255, 229, 236, 0.1);
 }
 
 .carousel-card h3 {
@@ -482,8 +493,8 @@ section {
 }
 
 .carousel-card ul li {
-  background: rgba(204, 163, 166, 0.08);
-  border: 1px solid rgba(204, 163, 166, 0.15);
+  background: rgba(255, 229, 236, 0.08);
+  border: 1px solid rgba(255, 229, 236, 0.15);
   padding: 7px 16px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -555,7 +566,7 @@ section {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgba(204, 163, 166, 0.25);
+  background: rgba(255, 229, 236, 0.25);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -582,8 +593,8 @@ section {
   align-items: center;
   gap: 14px;
   padding: 16px 22px;
-  background: rgba(204, 163, 166, 0.04);
-  border: 1px solid rgba(204, 163, 166, 0.1);
+  background: rgba(255, 229, 236, 0.04);
+  border: 1px solid rgba(255, 229, 236, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -690,7 +701,7 @@ section {
   max-width: 420px;
   width: 90%;
   text-align: center;
-  border: 1px solid rgba(204, 163, 166, 0.15);
+  border: 1px solid rgba(255, 229, 236, 0.15);
   position: relative;
 }
 
@@ -718,7 +729,7 @@ section {
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 16px;
-  border: 1px solid rgba(204, 163, 166, 0.1);
+  border: 1px solid rgba(255, 229, 236, 0.1);
   cursor: none;
 }
 
@@ -766,8 +777,8 @@ section {
 
 .soft-skill-card {
   padding: 28px 20px;
-  background: rgba(204, 163, 166, 0.04);
-  border: 1px solid rgba(204, 163, 166, 0.1);
+  background: rgba(255, 229, 236, 0.04);
+  border: 1px solid rgba(255, 229, 236, 0.1);
   border-radius: 10px;
   text-align: center;
   transition: all 0.4s ease;
@@ -807,7 +818,7 @@ section {
   padding: 24px;
   background: var(--bg-card);
   border-radius: 12px;
-  border: 1px solid rgba(204, 163, 166, 0.08);
+  border: 1px solid rgba(255, 229, 236, 0.08);
   transition: all 0.3s ease;
 }
 
@@ -842,7 +853,7 @@ section {
   height: 220px;
   object-fit: cover;
   border-radius: 12px;
-  border: 1px solid rgba(204, 163, 166, 0.1);
+  border: 1px solid rgba(255, 229, 236, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -876,7 +887,7 @@ section {
   align-items: center;
   gap: 10px;
   padding: 14px 28px;
-  border: 1px solid rgba(204, 163, 166, 0.2);
+  border: 1px solid rgba(255, 229, 236, 0.2);
   border-radius: 8px;
   color: var(--text-light);
   text-decoration: none;
@@ -919,14 +930,14 @@ section {
   font-size: 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  box-shadow: 0 8px 30px rgba(204, 163, 166, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 229, 236, 0.3);
   transition: all 0.3s ease;
   font-family: var(--font-body);
 }
 
 .floating-cta a:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 40px rgba(204, 163, 166, 0.5);
+  box-shadow: 0 12px 40px rgba(255, 229, 236, 0.5);
 }
 
 @keyframes float {
@@ -939,7 +950,7 @@ footer {
   background: var(--bg-dark);
   text-align: center;
   padding: 30px 20px;
-  border-top: 1px solid rgba(204, 163, 166, 0.08);
+  border-top: 1px solid rgba(255, 229, 236, 0.08);
 }
 
 footer p {
@@ -961,7 +972,7 @@ footer p {
     padding: 80px 40px 40px;
     gap: 24px;
     transition: right 0.3s ease;
-    border-left: 1px solid rgba(204, 163, 166, 0.1);
+    border-left: 1px solid rgba(255, 229, 236, 0.1);
   }
 
   .navbar-links.open {
