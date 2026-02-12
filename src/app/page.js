@@ -349,6 +349,11 @@ export default function Home() {
               </ul>
             </div>
           </div>
+          <div className="about-avis">
+            <a href="https://gensdeconfiance.com/fr/ui/profiles/62ce9865-39aa-42b4-a060-2067c0a55980" target="_blank" rel="noopener noreferrer" className="avis-cta">
+              Les Avis →
+            </a>
+          </div>
         </div>
       </section>
 
