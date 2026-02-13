@@ -105,7 +105,7 @@ export default function Home() {
     spawnTimer: 0,
   })
 
-  const gameWinHref = `mailto:lea.maliar@gmail.com?subject=${encodeURIComponent("🏆 Game Over : J'ai trouvé la pépite pour septembre 2026")}&body=${encodeURIComponent(
+  const gameWinHref = `mailto:lea.maliar.pro@gmail.com?subject=${encodeURIComponent("🏆 Game Over : J'ai trouvé la pépite pour septembre 2026")}&body=${encodeURIComponent(
     "Hello Léa,\n\nChallenge validé. J'ai les 3 rouges à lèvres, mais je veux surtout le talent qui a codé cette expérience.\n\nVotre profil hybride (Data + Créa) semble parfaitement correspondre à nos besoins actuels.\n\nQuand êtes-vous disponible pour un premier échange ?\n\nBien à vous,\n[Signature]"
   )}`
 
@@ -250,7 +250,7 @@ export default function Home() {
   }, [gameRunning])
 
   /* ========== SURPRISE MAILTO ========== */
-  const surpriseHref = `mailto:lea.maliar@gmail.com?subject=${encodeURIComponent("Candidature Léa Maliar : Demande d'entretien")}&body=${encodeURIComponent(
+  const surpriseHref = `mailto:lea.maliar.pro@gmail.com?subject=${encodeURIComponent("Candidature Léa Maliar : Demande d'entretien")}&body=${encodeURIComponent(
     "Bonjour Léa,\n\nJ'ai choisi l'option \"Surprise\" pour aller droit au but.\n\nJe suis intéressé(e) par votre profil e-commerce / marketing digital.\nPrenons un moment pour discuter de vos expériences et de ce que vous pourriez apporter à notre équipe.\n\nMes disponibilités sont :\n• [Date / Heure]\n\nBien à vous,\n[Signature]"
   )}`
 
@@ -271,25 +271,25 @@ export default function Home() {
       {/* ==================== MARQUEE BANNER ==================== */}
       <div className="marquee-banner">
         <div className="marquee-content">
-          <a href="mailto:lea.maliar@gmail.com">lea.maliar@gmail.com</a>
+          <a href="mailto:lea.maliar.pro@gmail.com">lea.maliar.pro@gmail.com</a>
           <span>•</span>
           <a href="https://www.linkedin.com/in/léa-m-86342b21a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <span>•</span>
           <span>Le futur talent prêt à vous rejoindre</span>
           <span>•</span>
-          <a href="mailto:lea.maliar@gmail.com">lea.maliar@gmail.com</a>
+          <a href="mailto:lea.maliar.pro@gmail.com">lea.maliar.pro@gmail.com</a>
           <span>•</span>
           <a href="https://www.linkedin.com/in/léa-m-86342b21a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <span>•</span>
           <span>Le futur talent prêt à vous rejoindre</span>
           <span>•</span>
-          <a href="mailto:lea.maliar@gmail.com">lea.maliar@gmail.com</a>
+          <a href="mailto:lea.maliar.pro@gmail.com">lea.maliar.pro@gmail.com</a>
           <span>•</span>
           <a href="https://www.linkedin.com/in/léa-m-86342b21a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <span>•</span>
           <span>Le futur talent prêt à vous rejoindre</span>
           <span>•</span>
-          <a href="mailto:lea.maliar@gmail.com">lea.maliar@gmail.com</a>
+          <a href="mailto:lea.maliar.pro@gmail.com">lea.maliar.pro@gmail.com</a>
           <span>•</span>
           <a href="https://www.linkedin.com/in/léa-m-86342b21a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <span>•</span>
@@ -565,7 +565,7 @@ export default function Home() {
           <h2 className="section-title">Contact</h2>
           <p>Vous souhaitez échanger sur un projet ou une opportunité ? N&apos;hésitez pas à me contacter.</p>
           <div className="contact-links">
-            <a href="mailto:lea.maliar@gmail.com" className="contact-link">
+            <a href="mailto:lea.maliar.pro@gmail.com" className="contact-link">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
